@@ -1,0 +1,271 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+  
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+header{
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    height: 5rem;
+    width: 100vw;
+   padding-top:1.5rem;
+}
+
+.logo img{
+    height: 2.5rem;
+    padding-left: 5rem;
+    align-items: flex-start;
+}
+
+.listSection ul{
+    display: flex;
+    gap: 4rem;
+    list-style-type: none;
+    
+}
+
+
+.listSection ul li:hover{
+    
+    border-bottom: 3px solid #8071D0;
+    transition: all 0.4s ease-in;
+ }
+
+.btn{
+    
+    margin-right: 5rem;
+    padding: 15px 30px;
+    border-radius: 1.4rem;
+    border: none;
+    background-color: #FFD8DB;
+    color: #A389CC;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: pink;
+    color: blueviolet;
+}
+
+
+
+.Container{
+      
+    display: flex;
+   
+    margin: 3rem;
+    padding: 2rem;
+    margin-top: 1rem;
+    gap: 1rem;
+    height: 700px;
+    position: relative;
+    
+}
+.leftContainer{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    position: relative;
+}
+.spanpoint{
+ color:  #5243C0;
+}
+
+.rightContainer{
+    display: flex;
+    width: 50%;
+    
+}
+
+
+/* /////right section */
+
+
+
+.bigWord{
+    font-size: 80px;
+    margin-bottom: 1rem;
+}
+.pword{
+    color: gray;
+    line-height: 1.5rem;
+}
+
+
+.leftContainer >p:nth-of-type(1){
+    padding-top: 20px;
+
+}
+
+
+ .Fimg{
+    position: absolute;
+    margin-top: 20px;
+    left: 28%;
+    border-radius: 40%;
+} 
+.Simg{
+    position: absolute;
+    margin-top: 20px;
+    left: 38.5%;
+    border-radius: 40%;
+   
+}
+
+.leftContainer button{
+    margin-top: 20px;
+    padding: 24px 35px;
+    border-radius: 1.4rem;
+    border: none;
+    background-color: #5243C0;
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 1rem;
+   
+    
+}
+.leftContainer button:hover{
+    background-color:#8071D0;
+}
+
+
+
+
+
+
+
+.bottomright{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem; 
+    height:15rem;
+    margin-top:2rem;
+    gap: 0.5rem;
+    position: relative;
+    right: 0.5rem;
+    margin-top: 5rem;
+   
+}
+
+.bottomright img{
+   
+    height: 2.4rem;
+    padding: 3px;
+   
+
+}
+
+.designbar {
+    display: flex;
+   background-color: rgb(229, 226, 226);
+    border: 1px solid #fff;
+    text-align: center  ;
+    width: 80%;
+    height: 3rem;
+    border-radius: 12px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    overflow: hidden;
+    justify-content: flex-start;
+ 
+    position: relative;
+    
+  
+}
+
+
+
+.designbar ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-start;
+    align-items: center;
+    gap:12px;
+}
+
+.designbar ul li{
+    padding-left: 12px;
+   
+}
+
+.fimg{
+    position: absolute;
+    left: 0%;
+    
+}
+.simg{
+    position: absolute;
+    right:35%;
+   
+    
+}
+.ftext{
+    position: absolute;
+    left:15%;
+    
+}
+.stext{
+    position: absolute;
+    left:65%;
+    color: gray;
+    
+    
+}
+#blue{
+    display: none;
+}
+.designbar:hover #blue{
+    display: inline;
+}
+.designbar:hover #gray{
+    display: none;
+}
+
+
+
+.colorb{
+    position: absolute;
+    right: 5%;
+    background-color: rgb(194, 175, 175);
+    width: 25px;
+    height: 12px;
+    border-radius: 9px;
+    align-self: center;
+}
+
+.Bbox{
+    background-color: white;
+    box-shadow: -1px -2px 18px 25px rgba(224,200,200,0.49);
+    color: #5243C0;
+    
+}
+
+.designbar:hover{
+    
+        background-color: white;
+        box-shadow: -1px -2px 18px 25px rgba(224,200,200,0.49);
+        color: #5243C0;
+        
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rightContainer{
+    position: absolute;
+    right: 5rem;
+}
